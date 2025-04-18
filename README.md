@@ -39,10 +39,10 @@ I'm passionate about solving real-world problems with data, and I'm actively loo
 ## 📂 Projects
 
 ### 📊 Sales Dashboard (Excel + Power BI)
-Analyzed sales data to discover trends, high-performing regions, and top-selling products. Created a Power BI dashboard to present insights.
+.
 
 ### 🧮 SQL Portfolio Project
-Wrote advanced SQL queries to explore a movie database — insights on genre popularity, average ratings, and actor productivity.
+Data cleaning of data set using SQL 
 
 ### 🌍 COVID-19 Tableau Dashboard
 Built a dynamic dashboard in Tableau to track COVID-19 cases by country, time, and recovery trends.
