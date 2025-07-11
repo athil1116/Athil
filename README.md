@@ -1,73 +1,71 @@
-# 📊 Hi, I'm Athil Chand — Aspiring Data Analyst
+🎬 Movie Dataset Analysis using Pandas (Google Colab)
+This project involves exploratory data analysis on a movie dataset using Python and Pandas in Google Colab. The dataset contains information about various films such as ID, title, release year, rating, and duration. The goal was to perform data cleaning, transformation, and various insightful queries.
 
-Welcome to my GitHub! I'm currently learning and building projects as I work toward becoming a Data Analyst. My goal is to turn data into actionable insights and help businesses make informed decisions.
+📁 Dataset Structure
+The dataset used contains the following columns:
 
-I'm passionate about solving real-world problems with data, and I'm actively looking for internship or junior data analyst opportunities.
+Id — Unique identifier for each film
 
----
+Movie — Name of the film
 
-## 🛠️ Tools & Technologies
+Year — Year the film was released
 
-### 🐍 Programming & Query Languages
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
+Rating — User rating of the film
 
-### 📊 Data Visualization
-![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=matplotlib&logoColor=white)
-![Seaborn](https://img.shields.io/badge/Seaborn-1E4C8C?style=for-the-badge&logo=seaborn&logoColor=white)
+Duration — Duration of the film (in minutes/seconds depending on dataset)
 
-### 🧼 Data Cleaning & Analysis
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
-![OpenRefine](https://img.shields.io/badge/OpenRefine-Gray?style=for-the-badge&logo=OpenRefine&logoColor=white)
+✅ Tasks Performed
+Load and Inspect Dataset
+Set the column names: Id, Movie, Year, Rating, Duration.
 
-### 🗃️ Databases
-![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+Shape of Dataset
+Display the number of rows and columns.
 
-### ⚙️ Others
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![VS Code](https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+Top 5 Films by Duration
+Display the five films with the highest duration.
 
----
+Remove Duplicates
+Check and remove duplicates (if any), then reset the index accordingly.
 
-## 📂 Projects
+Rename Column
+Rename the column Movie to Film.
 
-### 📊 Sales Dashboard (Excel + Power BI)
-.
+View Specific Range
+Display all observations from index 100 to 200.
 
-### 🧮 SQL Portfolio Project
-Data cleaning of data set using SQL 
+Longest Film
+Display the name and year of the film with the maximum duration.
 
-### 🌍 COVID-19 Tableau Dashboard
-Built a dynamic dashboard in Tableau to track COVID-19 cases by country, time, and recovery trends.
+Yearly Film Count
+Display the number of films released in each year.
 
----
+Top Duration Film (1986–1996)
+Find the film with the highest duration released between 1986 and 1996.
 
-## 📜 Certifications
+High Duration & Rating
+Find films with duration > 7000 and rating > 3.5.
 
-- 🏅 [Google Data Analytics Certificate (Coursera)](https://www.coursera.org/professional-certificates/google-data-analytics)
-- 🏅 [Microsoft Power BI Data Analyst (DA-100)](https://learn.microsoft.com/en-us/certifications/exams/da-100/)
-- 🏅 [SQL for Data Science](https://www.coursera.org/learn/sql-for-data-science)
-- 🏅 [Tableau Data Analyst Certification](https://www.tableau.com/learn/certification/certified-data-analyst)
+Lowest Rated Films
+Display 5 films with the lowest rating, sorted in descending order.
 
----
+Top Rated Film of 1996
+Print the name of the highest-rated film released in 1996.
 
-## 📚 Currently Learning
+🛠️ Tools Used
+Python 3
 
-- Deep diving into SQL joins, subqueries, and CTEs
-- Time series forecasting & trend analysis
-- Data storytelling and dashboard design principles
+Pandas
 
----
+Google Colab
 
-## 🤝 Let's Connect
+📌 Notes
+Make sure your dataset is clean and correctly formatted before running these operations.
 
-- 💼 [LinkedIn](your-linkedin-url)
-- 🌐 [Portfolio Website](your-portfolio-url)
-- 📬 Email: athilchandramohan@gmail.com
+The column names should exactly match the names used in the script.
+
+🚀 How to Run
+Upload the dataset to Google Colab.
+
+Import the dataset using pd.read_csv().
+
+Follow each step using the corresponding Pandas operations.
